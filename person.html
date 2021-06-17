@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/person.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <main>
+        <aside>                    
+            <div class="container">
+                Nombre:
+                <input type="text" class="caja" id="nombre">
+                <label for="nombre"></label>
+            </div>
+            <div class="container">
+                Correo:
+                <input type="text" class="caja" id="correo">
+                <label for="correo"></label>                
+            </div>
+            <div class="container">
+                Telefono:
+                <input type="text" class="caja" id="telefono">
+                <label for="telefono"></label>                
+            </div>
+            <button class="boton" onclick="agregar()">Agregar</button>            
+        </aside>
+        <section id="centro">
+            <div class="tabla">
+                <table id="table">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Correo</th>
+                            <th>Telefono</th>                            
+                            <th>Acción</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbd"></tbody>
+                </table>
+            </div>
+        </section>
+        
+    </main>    
+    
+    
+</body>
+<script src="js/jQuery v3.6.0.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/pagina.js"></script>
+<script src="js/person.js"></script>
+</html>
